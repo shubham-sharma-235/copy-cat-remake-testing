@@ -183,6 +183,8 @@ body{
      background-image: url('../images/Background-imgs/general-breakdown-bg.png');
 }
 
+
+
 footer{
     position: relative;
     bottom: 0;
@@ -192,3 +194,60 @@ footer{
     background-color: #fff;
     margin-top: 0;
 }
+
+@media(max-width: 870px){
+    .remake-page-left {
+        display: none;
+    }
+    .remake-page-left {
+        position: sticky;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        /* padding: 20px; */
+        height: 160vh;
+    }
+
+    
+    .remake-page-right {
+        margin-left: 0;
+        height: auto;
+        padding-top: 11vh;
+        margin-top: 0;
+    }
+    .remake-details {
+        text-align: center;
+        width: 90%;
+    }
+    .version-details-heading {
+        text-align: center;
+        font-size: 1.6rem;
+        height: 4rem;
+    }
+    .version-detail-card {
+        padding: 1rem 1rem;
+        color: #fff;
+        font-size: 1rem;
+        margin: 8px 0;
+    }
+
+    .buy-button{
+        display: block;
+    }
+    .buy-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .buy-button button{
+        /* display: none; */
+        height: 3.2rem;
+        color: #fff;
+        font-size: 1.2rem;
+        width: 10rem;
+        background-color: #000;
+        margin: 1rem;
+    }
+}
+
+
